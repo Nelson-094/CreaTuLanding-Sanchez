@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #071925;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    color: #FF5404;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-links a:hover {
+    background-color: rgba(85, 85, 85, 0.8);
+}
+
+.navbar-cart {
+    /* El CartWidget ya tiene sus propios estilos */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .navbar-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
