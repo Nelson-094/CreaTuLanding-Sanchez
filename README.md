@@ -1,12 +1,36 @@
-# React + Vite
+# TiendaReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mi primera página web con React para el curso de CoderHouse.
 
-Currently, two official plugins are available:
+## ¿Qué es esto?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Es una tienda online básica hecha con React. Tiene una barra de navegación, un carrito de compras y una sección principal.
 
-## Expanding the ESLint configuration
+## ¿Qué aprendí?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Crear componentes en React
+- Usar props para pasar información
+- Organizar el código en archivos separados
+- Usar CSS para dar estilos
+
+## Componentes que hice
+
+- **NavBar**: La barra de arriba con el nombre de la tienda y los enlaces
+- **CartWidget**: El carrito con el número 3
+- **ItemListContainer**: La parte principal donde después van a ir los productos
+
+## Cómo verlo en tu computadora
+
+1. Descargar el proyecto
+2. Abrir la terminal
+3. Escribir `npm install`
+4. Escribir `npm run dev`
+5. Abrir http://localhost:5173 en el navegador
+
+## Autor
+
+Nelson Sanchez - Estudiante de React JS en CoderHouse
+
+---
+
+**Primera entrega:** Crea tu landing
