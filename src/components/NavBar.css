@@ -3,13 +3,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #071925;
+    background-color: rgba(7, 25, 37, 0.95);
     color: white;
     width: 100%;
     box-sizing: border-box;
     position: relative;
     z-index: 10;
     backdrop-filter: blur(5px);
+}
+
+.navbar-brand .brand-link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .navbar-brand h1 {
@@ -36,6 +41,10 @@
 
 .navbar-links a:hover {
     background-color: rgba(85, 85, 85, 0.8);
+}
+
+.navbar-links a.active {
+    background-color: #FF5404;
 }
 
 .navbar-cart {
