@@ -17,6 +17,7 @@ const NavBar = () => {
                 <Link to="/category/remeras">Remeras</Link>
                 <Link to="/category/pantalones">Pantalones</Link>
                 <Link to="/category/calzado">Calzado</Link>
+                <Link to="/pagina-inexistente">Página de prueba 404</Link>
             </div>
 
             <div className="navbar-cart">
